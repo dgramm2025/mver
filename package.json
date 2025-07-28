@@ -1,7 +1,13 @@
 {
-  "name": "mver",
+  "name": "@dgramm2025/mver",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "mver": "index.mjs"
+  },
   "version": "1.0.1",
-  "description": "",
+  "description": "Bumps the version number in the version.php file",
   "homepage": "https://github.com/dgramm2025/mver#readme",
   "repository": {
     "type": "git",
