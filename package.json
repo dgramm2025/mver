@@ -1,0 +1,17 @@
+{
+  "name": "mver",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dgramm2025/mver#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgramm2025/mver.git"
+  },
+  "license": "MIT",
+  "author": "Digitech",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  }
+}
