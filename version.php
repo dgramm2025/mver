@@ -10,7 +10,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_training';
-$plugin->version   = 20250728008;
+$plugin->version   = 2025073102;
 $plugin->requires  = 2022041900; // Moodle 4.0 or later.
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = 'v0.1';
