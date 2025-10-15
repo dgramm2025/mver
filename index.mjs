@@ -20,15 +20,13 @@ if (vm) {
   let versionId = Number.parseInt(version.substring(8), 10);
 
   if (versionId >= 99) {
-    console.log("Version ID has reached its maximum value.");
-    exit(1);
+    throw new Error("Version ID has reached its maximum value.");
   }
 
   let originalDate = Number.parseInt(version.substring(0, 8), 10);
 
   if (isNaN(originalDate)) {
-    console.log("Invalid version format in version.php");
-    exit(1);
+    throw new Error("Invalid version format in version.php");
   }
 
   originalDate = new Date(
